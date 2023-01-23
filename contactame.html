@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Contactame - Erick Abraham Bernal Amparano - 228450 -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contactame.css" />
+    <title>Contacto</title>
+  </head>
+  <body bgcolor="#ccc">
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <img src="./imagenes/kuramin.png" alt="logo" width="75" height="75" />
+          <h1>Web Personal</h1>
+        </div>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="aficiones.html">Aficiones</a></li>
+          <li><a href="contactame.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <center>
+        <form
+          action="mailto:erick.bernal228450@potros.itson.edu.mx"
+          method="POST"
+          class="container"
+        >
+          <table border="0" bgcolor="#dfe3ef" width="500" align="center">
+            <tr bgcolor="#3b82f6">
+              <td colspan="2" align="center" style="color: white">
+                <h2>Contactame</h2>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Nombre:</td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                  maxlength="50"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Dirección:</td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Dirección"
+                  required
+                  maxlength="50"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>E-mail:</td>
+              <td>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  required
+                  maxlength="50"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Ocupación:</td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Ocupación"
+                  required
+                  maxlength="50"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Sexo:</td>
+              <td>
+                <select>
+                  <option>Masculino</option>
+                  <option>Femenino</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Aficiones:</td>
+              <td>
+                <textarea name="aficiones" cols="20" rows="10"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" align="center" text="white">
+                <input type="reset" value="Restablecer" />
+                <button>Enviar</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </center>
+    </main>
+    <footer align="center">
+      <p>&copy; Derechos reservados Erick Abraham Bernal Amparano - 228450</p>
+    </footer>
+  </body>
+</html>
